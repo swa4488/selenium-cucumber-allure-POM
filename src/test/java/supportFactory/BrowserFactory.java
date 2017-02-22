@@ -154,6 +154,7 @@ public class BrowserFactory {
 	public static WebDriver selectLocalBrowser() {
 		switch (browser) {
 		case Chrome:
+			System.setProperty("webdriver.chrome.driver", ".//lib//chromedriver.exe");
 			return new ChromeDriver();
 		case Firefox:
 			return new FirefoxDriver();

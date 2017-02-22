@@ -34,4 +34,4 @@ Examples:
     |admin				 |admin					|
     |linda.anderson|linda.anderson|
     |anthony.nolan |anthony.nolan	|
-    |peter.mac		 |peter.mac		|
+    |peter.mac		 |peter.mac1		|
