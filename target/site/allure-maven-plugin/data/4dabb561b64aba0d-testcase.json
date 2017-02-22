@@ -1,0 +1,140 @@
+{
+  "uid" : "4dabb561b64aba0d",
+  "name" : "Test Login with valid credentials",
+  "title" : "Test Login with valid credentials",
+  "time" : {
+    "start" : 1487673127478,
+    "stop" : 1487673130963,
+    "duration" : 3485
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 5
+  },
+  "failure" : {
+    "message" : "AssertionError: User is not on dashboard",
+    "stackTrace" : "java.lang.AssertionError: User is not on dashboard\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat stepDefinition.StepDefination.i_verify_I_am_on_dashboard(StepDefination.java:27)\n\tat ✽.Then I verify I am on dashboard(loginTest.feature:28)\n"
+  },
+  "description" : {
+    "value" : "I want to test login for different users\r\n",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "bd3ad967dec7e172",
+    "name" : "LogIn test script",
+    "title" : "Log in test script"
+  },
+  "steps" : [ {
+    "name" : "Given I go to Login Page",
+    "title" : "Given I go to Login Page",
+    "time" : {
+      "start" : 1487673127479,
+      "stop" : 1487673127978,
+      "duration" : 499
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login with \"peter.mac\" \"peter.mac1\"",
+    "title" : "When I login with \"peter.mac\" \"peter.mac1\"",
+    "time" : {
+      "start" : 1487673127978,
+      "stop" : 1487673129700,
+      "duration" : 1722
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I verify I am on dashboard",
+    "title" : "Then I verify I am on dashboard",
+    "time" : {
+      "start" : 1487673129700,
+      "stop" : 1487673129719,
+      "duration" : 19
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I LogOut",
+    "title" : "When I LogOut",
+    "time" : {
+      "start" : 1487673129719,
+      "stop" : 1487673129720,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I am on Login Page",
+    "title" : "Then I am on Login Page",
+    "time" : {
+      "start" : 1487673129721,
+      "stop" : 1487673129721,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "attachment0",
+    "source" : "926f1942-5c19-4c11-976c-7b71524eb17b-attachment.png",
+    "type" : "image/png",
+    "size" : 43972,
+    "uid" : "961f080547ee944a"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "8424@SILICUS395.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "SILICUS395"
+  }, {
+    "name" : "feature",
+    "value" : "LogIn test script"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "LogIn test script"
+  }, {
+    "name" : "story",
+    "value" : "Test Login with valid credentials"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,70 @@
+{
+  "features" : [ {
+    "title" : "LogIn test script",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "dc88d6780f6f9f2f",
+      "title" : "Test Login with valid credentials",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "7eac2eb2ac0de84f",
+        "name" : "Test Login with valid credentials",
+        "title" : "Test Login with valid credentials",
+        "time" : {
+          "start" : 1487673097282,
+          "stop" : 1487673115627,
+          "duration" : 18345
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "df81d2492c44d7a1",
+        "name" : "Test Login with valid credentials",
+        "title" : "Test Login with valid credentials",
+        "time" : {
+          "start" : 1487673115657,
+          "stop" : 1487673119457,
+          "duration" : 3800
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "47c606bb15b22349",
+        "name" : "Test Login with valid credentials",
+        "title" : "Test Login with valid credentials",
+        "time" : {
+          "start" : 1487673119459,
+          "stop" : 1487673127477,
+          "duration" : 8018
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4dabb561b64aba0d",
+        "name" : "Test Login with valid credentials",
+        "title" : "Test Login with valid credentials",
+        "time" : {
+          "start" : 1487673127478,
+          "stop" : 1487673130963,
+          "duration" : 3485
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "d805546cc8adcca2",
+      "failure" : {
+        "message" : "AssertionError: User is not on dashboard",
+        "stackTrace" : "java.lang.AssertionError: User is not on dashboard\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat stepDefinition.StepDefination.i_verify_I_am_on_dashboard(StepDefination.java:27)\n\tat ✽.Then I verify I am on dashboard(loginTest.feature:28)\n"
+      },
+      "testCases" : [ {
+        "uid" : "4dabb561b64aba0d",
+        "name" : "Test Login with valid credentials",
+        "title" : "Test Login with valid credentials",
+        "time" : {
+          "start" : 1487673127478,
+          "stop" : 1487673130963,
+          "duration" : 3485
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

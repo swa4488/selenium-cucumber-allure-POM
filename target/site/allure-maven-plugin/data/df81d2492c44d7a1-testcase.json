@@ -1,0 +1,131 @@
+{
+  "uid" : "df81d2492c44d7a1",
+  "name" : "Test Login with valid credentials",
+  "title" : "Test Login with valid credentials",
+  "time" : {
+    "start" : 1487673115657,
+    "stop" : 1487673119457,
+    "duration" : 3800
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "I want to test login for different users\r\n",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "bd3ad967dec7e172",
+    "name" : "LogIn test script",
+    "title" : "Log in test script"
+  },
+  "steps" : [ {
+    "name" : "Given I go to Login Page",
+    "title" : "Given I go to Login Page",
+    "time" : {
+      "start" : 1487673115659,
+      "stop" : 1487673116128,
+      "duration" : 469
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login with \"linda.anderson\" \"linda.anderson\"",
+    "title" : "When I login with \"linda.anderson\" \"linda.anderson\"",
+    "time" : {
+      "start" : 1487673116128,
+      "stop" : 1487673118327,
+      "duration" : 2199
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I verify I am on dashboard",
+    "title" : "Then I verify I am on dashboard",
+    "time" : {
+      "start" : 1487673118327,
+      "stop" : 1487673118333,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I LogOut",
+    "title" : "When I LogOut",
+    "time" : {
+      "start" : 1487673118334,
+      "stop" : 1487673119451,
+      "duration" : 1117
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I am on Login Page",
+    "title" : "Then I am on Login Page",
+    "time" : {
+      "start" : 1487673119451,
+      "stop" : 1487673119457,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "8424@SILICUS395.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "SILICUS395"
+  }, {
+    "name" : "feature",
+    "value" : "LogIn test script"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "LogIn test script"
+  }, {
+    "name" : "story",
+    "value" : "Test Login with valid credentials"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}
