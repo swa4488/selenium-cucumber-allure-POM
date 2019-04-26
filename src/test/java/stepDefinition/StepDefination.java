@@ -13,7 +13,7 @@ public class StepDefination {
 	
 	@Given("^I go to Login Page$")
  	public void i_go_to_login_page(){
-		Driver.getCurrentDriver().get("https://enterprise-demo.orangehrmlive.com/auth/login");
+		Driver.getCurrentDriver().get("https://opensource-demo.orangehrmlive.com/");
  	}
 	
 	@When("^I login with \"([^\"]*)\" \"([^\"]*)\"$")
@@ -24,7 +24,7 @@ public class StepDefination {
 	
 	@Then("^I verify I am on dashboard$")
 	public void i_verify_I_am_on_dashboard() throws Throwable {
-		Assert.assertTrue("User is not on dashboard", Driver.getCurrentDriver().getCurrentUrl().contains("https://enterprise-demo.orangehrmlive.com/dashboard"));
+		Assert.assertTrue("User is not on dashboard", Driver.getCurrentDriver().getCurrentUrl().contains("https://opensource-demo.orangehrmlive.com/index.php/dashboard"));
 	}
 	
 	@When("^I LogOut$")
@@ -35,6 +35,6 @@ public class StepDefination {
 	
 	@Then("^I am on Login Page$")
  	public void i_am_on_login_page(){
-		Assert.assertTrue("User is not on login page", Driver.getCurrentDriver().getCurrentUrl().contains("https://enterprise-demo.orangehrmlive.com/auth/login"));
+		Assert.assertTrue("User is not on login page", Driver.getCurrentDriver().getCurrentUrl().contains("https://opensource-demo.orangehrmlive.com/index.php/auth/login"));
  	}
 }
